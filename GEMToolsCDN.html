@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      
+    <!-- This group of meta statements are required for Bootstrap and must come first -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="author" content="Bill Smith - smith870@avaya.com">
+    <meta name="description" content="v1.2 - 27JUL2017">
+    
+    <!-- This can be changed as appropriate -->
+    <title>Houston GEM Tools</title>
+	
+	<!-- Latest compiled and minified Bootstrap CSS loaded from the Internet -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+      <style>
+          
+          /* Reserved for navbar - Using white background so it's not visible */
+          #topBar {background-color: white;}
+          
+          /* Class used for style on main headers */
+          .sectionHead {background-color: darkblue; color: white;}
+          
+          /* Classes for alternating color scheme in column backgrounds */
+          .colAreaA {background-color: #99ff33;}  /*#99ff33*/
+          .colAreaB {background-color: #bfff80;}  /*#bfff80*/
+      
+          /* Class used to force equal height columns in a row */ 
+          .row-eq-height {
+           display: -webkit-box;
+           display: -webkit-flex;
+           display: -ms-flexbox;
+           display:         flex; }
+         
+      </style>
+      
+</head>
+
+<body>
+    
+    <!-- Bootstrap container allows for a responsive fixed-width grid -->
+	<div class="container">
+        
+		<!-- Reserved for navbar - Using dot for h4 sizing and white so it's not visible -->	
+        <div id="topBar" class="row">
+			<div class="col-md-12" style="color:white"><h4>.</h4></div>
+		</div>
+		
+        <!-- Begin Government section -->
+		<div class="row">
+			<div class="sectionHead col-md-12"><h4><strong>Government</strong></h4></div>
+		</div>
+            
+            <!-- Begin first row of Gov boxes -->
+            <div class="row row-eq-height">
+                
+                <!-- 4 Columns are each 3 slots wide for a total (max) of 12 slots per row -->
+                
+                <!-- Begin first column -->
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Harris County</strong></h4>
+                    
+                    <!-- target="_blank" is used to open link in new tab -->
+                    <a href="https://purchasing.harriscountytx.gov/Pages/CurrentSolicitations.aspx" target="_blank"><strong>Harris County Current Bids</strong></a>
+                    <br> <!-- Inserts line break between entries -->
+                    <a href="https://www.harriscountytx.gov/agenda/" target="_blank"><strong>Harris County Commissioners Court</strong></a>
+                    <br>
+                    <a href="https://www.harriscountytx.gov/" target="_blank"><strong>Harris County Homepage</strong></a>
+                    <br>
+                    <a href="http://www.harriscountytx.gov/phonedirectory.aspx" target="_blank"><strong>Harris County Directory</strong></a>
+                    <br>
+                    <a href="https://cts.harriscountytx.gov/Pages/default.aspx" target="_blank"><strong>Harris County IT Division</strong></a>
+                    <br>
+                    <br>
+                </div>
+                
+                <!-- Begin second column -->
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Brazoria County</strong></h4>
+                    
+                    <a href="http:/brazoriacountytx.gov/departments/purchasing/bid-opportunities" target="_blank"><strong>Brazoria County Current Bids</strong></a>
+                    <br>
+                    <a href="http://brazoriacountytx.iqm2.com/Citizens/Default.aspx" target="_blank"><strong>Brazoria County Commissioners Court</strong></a>
+                    <br>
+                    <br>
+                </div>
+                
+                <!-- Begin third column -->
+                <div class="colAreaA col-md-3">
+                    <h4><strong>City of Lake Jackson</strong></h4>
+                    
+                    <a href="http://www.lakejackson-tx.gov/Bids.aspx?CatID=19" target="_blank"><strong>Lake Jackson Current Bids</strong></a>
+                    <br>
+                    <a href="http://www.lakejackson-tx.gov/AgendaCenter/City-Council-15" target="_blank"><strong>Lake Jackson City Council</strong></a>
+                    <br>
+                    <a href="http://www.lakejackson-tx.gov/" target="_blank"><strong>Lake Jackson Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <!-- Begin fourth column -->
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Houston Housing Authority</strong></h4>
+                    
+                    <a href="http://www.housingforhouston.com/doing-business-with-hha/current-solicitations.aspx" target="_blank"><strong>HHA Current Bids</strong></a>
+                    <br>
+                    <a href="http://www.housingforhouston.com/default.aspx" target="_blank"><strong>HHA Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            
+                <!-- Begin second row of Gov boxes -->                
+                <div class="row row-eq-height">
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Greater Harris County 911</strong></h4>
+                    
+                    <a href="http://www.911.org/" target="_blank"><strong>GHC 911 Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Port of Houston</strong></h4>
+                    
+                    <a href="http://porthouston.com/portweb/" target="_blank"><strong>Port of Houston Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>City of Houston</strong></h4>
+                    
+                    <a href="" target="_blank"><strong></strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong></strong></h4>
+                    
+                    <a href="" target="_blank"><strong></strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+ 
+		<!-- Currently used for spacer - Using dot for h3 sizing and white so it's not visible -->	
+        <div class="row">
+			<div class="col-md-12 text-right" style="color:white"><h3>.</h3></div>
+		</div>
+		
+		<!-- Begin Education section -->
+		<div class="row">
+            <div class="sectionHead col-md-12"><h4><strong>Education</strong></h4></div>
+		</div>
+		
+            <!-- Begin first row of Edu boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Klein ISD</strong></h4>
+                    
+                    <a href="http://www.kleinisd.net/default.aspx?name=finserv.purch.home" target="_blank"><strong>Klein ISD Current Bids</strong></a>
+                    <br>
+                    <a href="http://www.kleinisd.net/default.aspx?name=board.home" target="_blank"><strong>Klein ISD School Board</strong></a>
+                    <br>
+                    <a href="http://www.kleinisd.net/default.aspx?name=homepage" target="_blank"><strong>Klein ISD Homepage</strong></a>
+                    <br>
+                    <a href="http://www.kleinisd.net/default.aspx?name=contactus.whotocall" target="_blank"><strong>Klein ISD Admin Directory</strong></a>
+                    <br>
+                    <a href="https://www.kleinisd.net/default.aspx?name=it.home" target="_blank"><strong>Klein ISD IT Division</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Pearland ISD</strong></h4>
+                    
+                    <a href="http://www.pearlandisd.org/Page/616" target="_blank"><strong>Pearland ISD Current Bids</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Spring ISD</strong></h4>
+                    
+                    <a href="https://springisd.ionwave.net/CurrentSourcingEvents.aspx" target="_blank"><strong>Spring ISD Current Bids</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Prairie View A&amp;M</strong></h4>
+                    
+                    <a href="http://esbd.cpa.state.tx.us/sagencybid.cfm?startrow=1&endrow=25&ag_num=715&orderby=OpenAsc" target="_blank"><strong>ESBD PVAMU Bid Search</strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+            
+        <!-- Begin second row of Edu boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Aldine ISD</strong></h4>
+                    
+                    <a href="http://www.aldineisd.org/" target="_blank"><strong>Aldine ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Alief ISD</strong></h4>
+                    
+                    <a href="https://www.aliefisd.net/" target="_blank"><strong>Alief ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Clear Creek ISD</strong></h4>
+                    
+                    <a href="https://www.ccisd.net/" target="_blank"><strong>Clear Creek ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Deer Park ISD</strong></h4>
+                    
+                    <a href="https://www.dpisd.org/" target="_blank"><strong>Deer Park ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        
+         
+        <!-- Begin third row of Edu boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Beaumont ISD</strong></h4>
+                    
+                    <a href="http://www.bmtisd.com/pages/BeaumontISD" target="_blank"><strong>Beaumont ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Houston ISD</strong></h4>
+                    
+                    <a href="http://www.houstonisd.org/" target="_blank"><strong>Beaumont ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Community in Schools</strong></h4>
+                    
+                    <a href="http://cishouston.org/" target="_blank"><strong>CIS Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Santa Fe ISD</strong></h4>
+                    
+                    <a href="https://www.sfisd.org/SFISD" target="_blank"><strong>Santa Fe ISD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        
+ 
+        <!-- Begin fourth row of Edu boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Texas A&amp;M</strong></h4>
+                    
+                    <a href="https://www.tamu.edu/" target="_blank"><strong>Texas A&amp;M Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Univ. of Houston - Downtown</strong></h4>
+                    
+                    <a href="https://www.uhd.edu/Pages/home.aspx" target="_blank"><strong>UHD Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong></strong></h4>
+                    
+                    <a href="" target="_blank"><strong></strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong></strong></h4>
+                    
+                    <a href="" target="_blank"><strong></strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        
+         
+        <!-- Currently used for spacer - Using dot for h3 sizing and white so it's not visible -->	
+        <div class="row">
+            <div class="col-md-12 text-right" style="color:white"><h3>.</h3></div>
+        </div>
+
+		<!-- Begin Medical section -->
+		<div class="row">
+            <div class="sectionHead col-md-12"><h4><strong>Medical</strong></h4></div>
+		</div>
+		
+            <!-- Begin first row of Med boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaA col-md-3">
+                    <h4><strong>MD Anderson</strong></h4>
+                    
+                    <a href="https://bids.sciquest.com/apps/Router/PublicEvent?CustomerOrg=MDAndersonPS" target="_blank"><strong>MD Anderson Current Bids</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>UTMB</strong></h4>
+                    
+                    <a href="https://www.utmb.edu/supplychain/purchasing/bidops.asp" target="_blank"><strong>UTMB Current Bids</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>UT Health</strong></h4>
+                    
+                    <a href="https://www.uth.edu/buy/bid-list.htm" target="_blank"><strong>UT Health Current Bids</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Kelsey-Seybold</strong></h4>
+                    <!-- Add strong tags when defined -->
+                     <a href="https://www.kelsey-seybold.com/" target="_blank"><strong>Kelsey-Seybold Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        
+            <!-- Begin second row of Med boxes -->
+            <div class="row row-eq-height">
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Community Health Choice</strong></h4>
+                    
+                    <a href="https://www.communityhealthchoice.org/" target="_blank"><strong>CHC Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong>Harris Health System</strong></h4>
+                    
+                    <a href="https://www.harrishealth.org/en/pages/home.aspx" target="_blank"><strong>Harris Health Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaB col-md-3">
+                    <h4><strong>Brazosport Regional</strong></h4>
+                    
+                    <a href="http://www.brazosportregional.org/" target="_blank"><strong>Harris Health Homepage</strong></a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="colAreaA col-md-3">
+                    <h4><strong></strong></h4>
+                    
+                    <a href="" target="_blank"><strong></strong></a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+		
+        <!-- Currently used for spacer - Using dot for h3 sizing and white so it's not visible -->	
+        <div class="row">
+			<div class="col-md-12 text-right" style="color:white"><h3>.</h3></div>
+		</div>
+		
+ </div>		
+		
+	
+	<!-- jQuery library loaded from the Internet -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript loaded from the Internet -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+   
+</body>
+
+
+
+
+</html>
